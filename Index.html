@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+<script>
+		
+</script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/calc.js"></script>
+</head>
+
+<body>
+	<center>
+
+
+		<table border="1" width="80%">
+			<tr> 
+				
+					<td colspan="4">
+						<center><p>Facture</p></center>
+					</td>
+				
+			</tr>
+			<tr> 
+				<td>
+					<p>Désignation</p>
+				</td>
+				<td>
+				<p>Qte</p>
+				</td>
+				<td>
+				<p>PU</p>		
+				</td>
+				<td>
+				<p>Total</p>		
+				</td>
+			</tr>
+				
+			<tr>
+				<td>
+					<b> p1 </b>	
+				</td>
+				<td>
+					<input type="text" id='a' >
+				</td>
+				<td>
+					<input type="text" id='b' onchange='getTotal()' >
+				</td>
+				<td>
+					<input id='t' type="text" >
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<b> p2</b>	
+				</td>
+				<td>
+					<input type="text" id='a1' >
+				</td>
+				<td>
+					<input type="text" id='b1' onchange='getTotal1()' >
+				</td>
+				<td>
+					<input id='t1' type="text" >
+				</td>
+			</tr>
+			
+			<tr>
+				<td>
+					<b> p3</b>	
+				</td>
+				<td>
+					<input type="text" id='a2' >
+				</td>
+				<td>
+					<input type="text" id='b2' onchange='getTotal2()' >
+				</td>
+				<td>
+					<input id='t2' type="text" >
+				</td>
+			</tr>
+			<tr>
+				<center>
+				<td colspan="4">
+					<table>
+						<tr>
+							<td>Total HT</td><td>:</td><td><input id='HT' type="text" onchange='TotalHT()' ></td>
+						</tr>
+						<tr>
+							<td>Total TVA</td><td>:</td><td><input type="text" ></td>
+						</tr>
+						<tr>
+							<td>Total TTC</td><td>:</td><td><input type="text" ></td>
+						</tr>
+					</table>
+					
+				</td>
+				</center>
+			</tr>
+			
+			
+			
+			
+			
+			
+			
+		</table>
+		
+	</center>
+	<script type="text/javascript" src="somme.js"></script>
+</body>
+
+<footer>
+</footer>
